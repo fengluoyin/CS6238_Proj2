@@ -15,7 +15,7 @@ public class Strat_session {
         //SSLSession session = null;
         try {
             // Initiate connection
-            Client.Ssl_Socket = (SSLSocket) socketFactory.createSocket(host, 8888);
+            Client.Ssl_Socket = (SSLSocket) socketFactory.createSocket(host, 6666);
             Client.Writer = new PrintWriter(Client.Ssl_Socket.getOutputStream());
             Client.Data_Input = new DataInputStream(Client.Ssl_Socket.getInputStream());
             Client.Data_Out = new DataOutputStream(Client.Ssl_Socket.getOutputStream());
@@ -31,7 +31,7 @@ public class Strat_session {
 
             if (conn.equals("Untrusted connection")) {
                 System.out.println("Untrusted client");
-                Client.end_session();
+                End_session.end_session();
             } else if (conn.equals("connected successfully"))  {
                 System.out.println("Successfully connected to server"+"("+ Client.Ssl_Socket.getRemoteSocketAddress()+")"+"!");
             }
