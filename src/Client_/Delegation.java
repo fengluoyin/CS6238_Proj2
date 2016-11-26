@@ -8,6 +8,12 @@ import java.io.IOException;
 public class Delegation {
     public static void delegate(String Document_UID, String client, String time, String propogationFlag) {
         try {
+            if(client.equals("Luoyin1"))
+                client="client";
+            if(client.equals("Luoyin2"))
+                client="client2";
+            if(client.equals("Luoyin3"))
+                client="client3";
             // Send command to server
             Client.Writer.write("delegate\n" + Document_UID + ',' + Client.clientName + ',' + client + ',' + time  + ',' + propogationFlag + '\n');
             Client.Writer.flush();
