@@ -2,8 +2,10 @@
 CS6238_Proj2
 
 # Steps to run:
-# 1. Open a new console, navigate to the Demo/Server folder and execute: java -jar Server.jar
-# 2. Navigate a console to the Demo/Client folder and execute: java -jar Client.jar
+# 1. Open a new console, navigate to the Demo/Server folder and execute: 
+   java -jar Server.jar
+# 2. Navigate a console to the Demo/Client folder and execute: 
+   java -jar Client.jar
 # 3. Type in the username 'Luoyin1' and the password 'Luoyin1' and input h to get help
     **##############################################################**
     commands and arguments 
