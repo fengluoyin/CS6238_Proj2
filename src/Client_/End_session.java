@@ -14,11 +14,11 @@ public class End_session {
             for(int i = 0; i < Client.fileFromServer.size(); i++) {
                 if((Client.fileFromServer.get(i)).toString().indexOf(',') < 0) break;
                 String[] temp = Client.fileFromServer.get(i).split(",");
-                System.out.println("Printing filesFromServer" + Arrays.toString(temp));
+                //System.out.println("Printing filesFromServer" + Arrays.toString(temp));
 
                 String path = new File(".").getCanonicalPath().toString() + File.separator + Client.clientName +  File.separator  + temp[0];
 
-                Check.check_in(path, temp[1]);
+                //Check.check_in(path, temp[1]);
                 Client.fileFromServer.remove(temp);
             }
         }

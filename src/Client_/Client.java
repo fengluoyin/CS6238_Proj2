@@ -154,7 +154,7 @@ public class Client {
         System.out.println("\tcheck_in DocumentUID SecurityFlag                        - Push file");
         System.out.println("\tdelegate DocumentUID Client Time PropagationFlag         - Doing Delegation");
         System.out.println("\tsafe_delete DocumentUID                                  - Doing Delegation");
-        System.out.println("\tend-session()                                            - end the session.");
+        System.out.println("\tend-session                                              - end the session.");
         System.out.println("##############################################################");
         System.out.println();
     }
