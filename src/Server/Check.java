@@ -78,7 +78,7 @@ public class Check {
                 }
                 FileWriter metaWriter = new FileWriter (metadata);
                 PrintWriter pWriter = new PrintWriter (metaWriter);
-                pWriter.println (server.clientname);
+                pWriter.println (server.username);
                 pWriter.println (security_flag);
                 pWriter.close();
 
@@ -156,7 +156,7 @@ public class Check {
                         }
                         FileWriter metaWriter = new FileWriter (metadata);
                         PrintWriter pWriter = new PrintWriter (metaWriter);
-                        pWriter.println (server.clientname);
+                        pWriter.println (server.username);
                         pWriter.println (security_flag);
                         pWriter.close();
                     }
