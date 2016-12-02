@@ -34,7 +34,7 @@ CS6238_Proj2
     `start-session localhost`
     `check_out test1.txt`
     `check_out test2.txt` 
-   `check_out test3.txt`
+    `check_out test3.txt`
     `delegate test1.txt Luoyin3 10000 true`
     `delegate test3.txt Luoyin3 10000 false`
     `end-session`
