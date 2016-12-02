@@ -17,8 +17,8 @@ CS6238_Proj2
     end-session                                              - end the session
     **##############################################################**
 # 4. input the following commands:
-    `start-session localhost`
-    `check_in test1.txt NONE`
+    start-session localhost
+    check_in test1.txt NONE
     `check_in test2.txt INTEGRITY`
     `check_in test3.txt CONFIDENTIALITY`
     `check_out test1.txt`
