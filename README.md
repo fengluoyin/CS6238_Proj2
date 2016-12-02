@@ -17,19 +17,19 @@ CS6238_Proj2
     end-session                                              - end the session
     **##############################################################**
 # 4. input the following commands:
-    `start-session localhost`
-    `check_in test1.txt NONE`
-    `check_in test2.txt INTEGRITY`
-    `check_in test3.txt CONFIDENTIALITY`
-    `check_out test1.txt`
-    `check_out test2.txt` 
-    `check_out test3.txt` 
-    `delegate test1.txt Luoyin2 10000 true`
-    `delegate test2.txt Luoyin2 10000 true`
-    `delegate test3.txt Luoyin2 10000 false`
-    `safe_delete test2.txt`
-    `end-session`
-    `quit`
+>    `start-session localhost`
+>    `check_in test1.txt NONE`
+>    `check_in test2.txt INTEGRITY`
+>    `check_in test3.txt CONFIDENTIALITY`
+>    `check_out test1.txt`
+>    `check_out test2.txt` 
+>    `check_out test3.txt` 
+>    `delegate test1.txt Luoyin2 10000 true`
+>    `delegate test2.txt Luoyin2 10000 true`
+>    `delegate test3.txt Luoyin2 10000 false`
+>    `safe_delete test2.txt`
+>    `end-session`
+>    `quit`
 # 5. Run New Client login in with username 'Luoyin2' and the password 'Luoyin2' and input the following commands:
     `start-session localhost`
     `check_out test1.txt`
