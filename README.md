@@ -19,32 +19,32 @@ CS6238_Proj2
 # 4. input the following commands:
     start-session localhost
     check_in test1.txt NONE
-    `check_in test2.txt INTEGRITY`
-    `check_in test3.txt CONFIDENTIALITY`
-    `check_out test1.txt`
-    `check_out test2.txt` 
-    `check_out test3.txt` 
-    `delegate test1.txt Luoyin2 10000 true`
-    `delegate test2.txt Luoyin2 10000 true`
-    `delegate test3.txt Luoyin2 10000 false`
-    `safe_delete test2.txt`
-    `end-session`
-    `quit`
+    check_in test2.txt INTEGRITY
+    check_in test3.txt CONFIDENTIALITY
+    check_out test1.txt
+    check_out test2.txt
+    check_out test3.txt
+    delegate test1.txt Luoyin2 10000 true
+    delegate test2.txt Luoyin2 10000 true
+    delegate test3.txt Luoyin2 10000 false
+    safe_delete test2.txt
+    end-session
+    quit
 # 5. Run New Client login in with username 'Luoyin2' and the password 'Luoyin2' and input the following commands:
-    `start-session localhost`
-    `check_out test1.txt`
-    `check_out test2.txt` 
-    `check_out test3.txt`
-    `delegate test1.txt Luoyin3 10000 true`
-    `delegate test3.txt Luoyin3 10000 false`
-    `end-session`
-    `quit`
+    start-session localhost
+    check_out test1.txt
+    check_out test2.txt
+    check_out test3.txt
+    delegate test1.txt Luoyin3 10000 true
+    delegate test3.txt Luoyin3 10000 false
+    end-session
+    quit
 # 6. Run New Client login in with username 'Luoyin3' and the password 'Luoyin3' and input the following commands:
-    `start-session localhost`
-    `check_out test1.txt`
-    `check_out test3.txt`
-    `end-session`
-    `quit`
+    start-session localhost
+    check_out test1.txt
+    check_out test3.txt
+    end-session
+    quit
 # 7.Then check the result of the three terminal to check if the function works well
 
     (1)start-session: check three terminal's first command
